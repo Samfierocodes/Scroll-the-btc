@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.scroll-section {
+    position: relative;
+    height: auto; /* Full page height for scrolling */
+    background: url('./asset/btcbg.jpg') no-repeat center center;
+    background-size: 30%; /* Start as a thumbnail */
+    transition: background-size 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7); /* Faded white background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: black; /* Start with black text */
+    transition: color 0.5s ease;
+}

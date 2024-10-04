@@ -9,7 +9,7 @@ body, html {
 .scroll-section {
     position: relative;
     height: auto; /* Full page height for scrolling */
-    background: url('./asset/btcbg.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/samfiero/scroll-the-btc/main/asset/btcbg.jpg') no-repeat center center;
     background-size: 30%; /* Start as a thumbnail */
     transition: background-size 0.5s ease;
     display: flex;
